@@ -60,16 +60,16 @@ Each model generates class predictions and class probabilities on the test set. 
 
 Precision, recall, F1-score, and accuracy are computed for both classes. All models achieve perfect scores (1.00) across all metrics, indicating flawless classification performance on the test data. 
 
-
 Classification Report for Logistic Regression:
+
 <img src = "logreg_classification_report.png" width = "500">
 
-
 Classification Report for Decision Tree Classifier: 
+
 <img src = "dtc_classification_report.png" width = "500">
 
-
 Classification Report for Random Forest Classifier:
+
 <img src = "rfc_classification_report.png" width = "500">
 
 Confusion matrices show zero misclassification, with all samples correctly classified into their respective classes. This confirms the absence of false positives and false negatives. 
